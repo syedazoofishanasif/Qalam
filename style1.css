@@ -1,0 +1,186 @@
+@media only screen and (max-width: 600px){
+body{
+    color: peachpuff;
+}
+}
+header{
+    padding: 10px 100px;
+    position: sticky;
+    top: 50px;
+}
+h1{
+    color:purple;
+    font-family: cursive;
+}
+p{
+    color: black;
+}
+.logo {
+    max-width: 100px;
+    height: 80px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background:#928ff3;
+    position: sticky;
+    top: 0px;
+    z-index: 300;
+    
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    display: block;
+    color: white;
+    padding: 0 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+nav a:hover {
+    background-color: powderblue ;
+  }
+.card{
+    float: left;
+    margin-left: 80px;
+    color: powderblue;
+    font-weight: bolder;
+    background-color: palegoldenrod;
+}
+.card .card-title{
+    color: powderblue;
+    font-weight: bolder;
+}
+.head{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.line {
+    border: 1px solid #928ff3;
+  }
+.head2{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card{
+   height: 480px;
+   width: 300px;
+}
+.card3
+{
+    margin-top: 30px !important;
+    height: 200px !important;
+}
+.logo2{
+    max-width: 100px;
+    height: 80px;
+}
+.card-text ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
+.btn-btn-primary{
+    color:  #928ff3;
+
+}
+.card3 .card-title{
+    color:#928ff3;
+    font-weight: bold;
+    font-family: cursive;
+}
+.card3 li{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
+cover1{
+    margin-top: 20px;
+}
+.intro{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    list-style: none;
+    margin-top: 20px;
+    float: right;
+}
+.cover1{
+    margin-top: 20px;
+}
+.card-text{
+    display: flex;
+    font-weight: bold;
+}
+.arr{
+    display: inline;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+  .container {
+    border-radius: 5px;
+    background-color: powderblue;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
